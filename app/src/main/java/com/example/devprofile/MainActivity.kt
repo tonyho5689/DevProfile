@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val bitmap = BitmapFactory.decodeResource(resources, R.drawable.devslopesprofilelogo)
         val rounded = RoundedBitmapDrawableFactory.create(resources, bitmap)
         rounded.cornerRadius = 15f
-//        rounded.isCircular = true
-        logo.setImageDrawable(rounded)
+        rounded.isCircular = true
+        banner.setImageDrawable(rounded)
     }
 }
